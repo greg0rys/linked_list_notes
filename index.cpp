@@ -32,6 +32,8 @@ struct node
 			}
 			if(copy.next)
 			{
+					// todo: check to see if these two are sharing the same
+					// pointer with this assignment.
 					next = copy.next;
 			}
 			else
